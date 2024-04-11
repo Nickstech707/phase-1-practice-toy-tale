@@ -118,7 +118,6 @@ addBtn.addEventListener("click", () => {
 });
 
 // start by getting all toys
-
 getToys().then((toys) => {
   toys.forEach((toy) => {
     //function to render toys goes here or something
